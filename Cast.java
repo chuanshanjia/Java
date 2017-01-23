@@ -1,7 +1,7 @@
 /**
 * int型变量和char型变量的转换，以此来获取Unicode编码和数字对应的字符。
 */
-public class Coding{
+public class Cast{
 	public static void main(String[] args){
 		int a = 'a';
 		int k = 'k';
