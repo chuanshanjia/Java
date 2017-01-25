@@ -13,7 +13,7 @@ import java.util.TreeSet;
 
 public class CollectionSet{
 	public static void main(String[] args){
-		Person a = new Person(1, "name3", "woman", "金融");
+		Person a = new Person(3, "name3", "woman", "金融");
 		Person b = new Person(1, "name1", "woman", "金融");
 		Person c = new Person(2, "name2", "man", "金融");
 
@@ -22,10 +22,12 @@ public class CollectionSet{
 		set.add(b);
 		set.add(c);
 
+		System.out.println("HashSet=====");
 		Iterator iterator = set.iterator();
 		while(iterator.hasNext()){
 			System.out.println(iterator.next());
 		}
+		System.out.println(".HashSet=====");
 
 
 		System.out.println("TreeSet=====");
@@ -41,6 +43,7 @@ public class CollectionSet{
 		while(titerator.hasNext()){
 			System.out.println(titerator.next());
 		}
+		System.out.println(".TreeSet=====");
 
 
 	}
