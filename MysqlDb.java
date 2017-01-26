@@ -1,5 +1,7 @@
 /**
 * jdbc操作
+* mysql.jar包下载: https://dev.mysql.com/downloads/connector/j/
+* 参考资料:http://www.cnblogs.com/aniuer/archive/2012/09/10/2679241.html
 */
 import java.sql.*;
 
