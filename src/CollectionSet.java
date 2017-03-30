@@ -29,7 +29,6 @@ public class CollectionSet{
 		}
 		System.out.println(".HashSet=====");
 
-
 		System.out.println("TreeSet=====");
 		PersonTreeSet as = new PersonTreeSet(3, "name3", "woman", "金融");
 		PersonTreeSet bs = new PersonTreeSet(1, "name1", "woman", "金融");
